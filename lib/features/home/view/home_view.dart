@@ -6,25 +6,6 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: SizedBox.shrink(),
-        leadingWidth: 0,
-        title: Row(
-          children: [
-            SvgPicture.asset('assets/icons/motorcycle.svg'),
-            SizedBox(width: 10),
-            Text(
-              '61 Hopper street..',
-              style: TextStyle(fontSize: 19, fontWeight: FontWeight.w500),
-            ),
-            SizedBox(width: 10),
-            Icon(Icons.keyboard_arrow_down_outlined, size: 32),
-            Spacer(),
-            SvgPicture.asset('assets/icons/basket.svg'),
-          ],
-        ),
-      ),
-    );
+    return Scaffold(appBar: AppBar(title: Text('home')));
   }
 }
