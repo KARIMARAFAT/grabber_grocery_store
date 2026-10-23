@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:grabber_grocery_store/features/home/view/home_view.dart';
 import 'package:grabber_grocery_store/features/splash/splash_view.dart';
 
 void main() {
